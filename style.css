@@ -225,6 +225,11 @@ form {
 	font-size: 18px;
 }
 
+.btn-default a {
+	text-decoration: none;
+	color: #ccc3b0;
+}
+
 /*SUPPORTING*/
 .supporting {
 	background-color: #6f9054;
