@@ -4,7 +4,7 @@ body {
 	font-weight: 400;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	background-image: url('https://github.com/LiaGroza/iuliagroza/blob/master/backgroundimg.jpg');
+	background-image: url('backgroundimg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
