@@ -103,9 +103,9 @@ body {
         margin-right: -150px;
 }
 
-/*#descr {
-	margin: 270px -150px 240px 200px;
-}*/
+#descr {
+	margin: 270px 0 240px 0;
+}
 
 .one {
 	display: inline;
