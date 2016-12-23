@@ -103,8 +103,8 @@ body {
         margin-right: -150px;
 }
 
-#descr {
-	margin: 270px 0 240px 0;
+.descr {
+	margin: 270px 80px 240px 120px;
 }
 
 .one {
@@ -114,9 +114,9 @@ body {
 	border: 1px solid rgba(102, 87, 64, 1);
 	color: #e9e2d0;
 	
-	/*margin-top: 50px;*/
+	margin-top: 50px;
 	margin-left: 125px;
-	/*margin-bottom: -50px;*/
+	margin-bottom: -50px;
 	padding: 5px 15px;
 	
 	font-family: 'Inconsolata', monospace;
@@ -130,7 +130,7 @@ body {
 	border: 1px solid #7d5d45;
 	color: #e9e2d0;
 	
-	margin: 0 180px 0 270px;
+	margin: -80px 180px 220px 270px;
 	padding: 15px 20px;
 }
 
