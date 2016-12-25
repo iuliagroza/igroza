@@ -229,14 +229,18 @@ form {
 	border-radius: 0;
 }
 
-#exampleInputSubject1 {
+.error {
+	color: #ccc3b0;
+	font-family: 'Inconsolata', monospace;
+}
+
+#subject {
 	width: 700px;
 }
 
-#exampleInputMessage1 {
+#message {
 	width: 700px;
 	
-	margin-left: 120px;
 	padding-top: 15px;
 	padding-bottom: 200px;
 }
@@ -247,7 +251,6 @@ form {
 	border-radius: 0;
         color: #ccc3b0;
 	
-	margin-left: 120px;
 	margin-bottom: 30px;
 	padding: 8px 12px;
 	
