@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 		var message = $('#message').val();
 		if(message === "") {
-			$('#ms').text("What do you want me to know??");
+			$('#ms').text("What do you want me to know?");
 			return false;
 		}
 		return true;
