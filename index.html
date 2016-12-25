@@ -155,24 +155,29 @@
     <div class="menu" id="feedback">
       <div class="container">
         <h3>Want to share some code with me?<br>I'd love to hear your feedback!</h3>
-          <form>
+          <form id='feedback-form'>
             <div class="form-group">
-              <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+              <p class="error" id="nm"></p>
+              <input type="name" class="form-control" id="name" placeholder="Name">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
+              <p class="error" id="em"></p>
+              <input type="email" class="form-control" id="email" placeholder="Email address">
             </div>
             <div class="form-group">
-              <input type="country" class="form-control" id="exampleInputCountry1" placeholder="Country">
+              <p class="error" id="cn"></p>
+              <input type="country" class="form-control" id="country" placeholder="Country">
             </div>
             <div class="form-group">
-              <input type="subject" class="form-control" id="exampleInputSubject1" placeholder="Subject">
+              <p class="error" id="sb"></p>
+              <input type="subject" class="form-control" id="subject" placeholder="Subject">
             </div>
+            <div class="form-group">
+              <p class="error" id="ms"></p>
+              <textarea type="message" class="form-control" id="message" placeholder="Message"></textarea>
+            </div>
+            <input class="btn btn-default" type="submit" value="Submit">
           </form>
-          <div class="form-group">
-              <textarea type="message" class="form-control" id="exampleInputMessage1" placeholder="Message"></textarea>
-          </div>
-          <div class="btn btn-default"><!--<a href="javascript:document.msgform.submit();">-->Submit<!--</a>--></div>
       </div>
     </div>
 
