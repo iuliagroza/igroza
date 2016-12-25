@@ -285,6 +285,11 @@ form {
 	margin-left: 100px;
 }
 
+#gh {
+	width: 35%;
+	margin-top: 16px;
+}
+
 /*FOOTER*/
 
 .footer {
