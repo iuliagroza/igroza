@@ -16,6 +16,11 @@ body {
 	
 }
 
+a:hover { 
+    color: #e9e2d0;
+    text-decoration: none;
+}
+
 /*HEADER*/
 
 .header {
